@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <div
+    class="w-full p-5 border-b bg-muted font-medium flex gap-1"
+  >
+    <p>
+      Weather in
+    </p>
+    <p />
+  </div>
+  <div
+    class="w-full p-5 border-b flex gap-1 tabular-nums"
+  >
+    <p>
+      Temperature:
+    </p>
+    <p />
+    <p>
+      C
+    </p>
+  </div>
+  <div
+    class="w-full p-5 border-b flex gap-1 tabular-nums"
+  >
+    <p>
+      Humidity:
+    </p>
+    <p />
+    <p>
+      %
+    </p>
+  </div>
+  <div
+    class="w-full p-5 border-b flex gap-1 tabular-nums"
+  >
+    <p>
+      Wind:
+    </p>
+    <p />
+    <p>
+      m/s
+    </p>
+  </div>
+  <div
+    class="script w-full p-5 flex flex-col gap-2"
+  >
+    <fieldset>
+      <form
+        class="space-y-2"
+      >
+        <div
+          class="space-y-2"
+        >
+          <input
+            aria-describedby=":r0:-form-item-description"
+            aria-invalid="false"
+            class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+            id=":r0:-form-item"
+            name="city"
+            placeholder="City"
+            value=""
+          />
+        </div>
+        <button
+          class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 script"
+          type="submit"
+        >
+          Search for another city
+        </button>
+      </form>
+    </fieldset>
+  </div>
+</div>
+`;
