@@ -42,3 +42,8 @@ pnpm start
 docker build -t weatherwidget .
 docker run -p 3000:3000 weatherwidget
 ```
+
+Visit 
+[http://localhost:3000/gallery](http://localhost:3000/gallery)
+OR 
+[http://localhost:3000/](http://localhost:3000/)
