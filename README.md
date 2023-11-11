@@ -1,5 +1,7 @@
 <h1 style="text-align:center">⛅</h1>
 
+https://github.com/thebestclicker/weather-widget/assets/10188306/dc4adc96-07e6-496f-b219-fe2c7f2dbe08
+
 ### Default
 
 ![Default](docs/image.png)
@@ -40,3 +42,8 @@ pnpm start
 docker build -t weatherwidget .
 docker run -p 3000:3000 weatherwidget
 ```
+
+Visit 
+[http://localhost:3000/gallery](http://localhost:3000/gallery)
+OR 
+[http://localhost:3000/](http://localhost:3000/)
