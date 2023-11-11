@@ -1,6 +1,10 @@
 <h1 style="text-align:center">⛅</h1>
 
-https://github.com/thebestclicker/weather-widget/assets/10188306/dc4adc96-07e6-496f-b219-fe2c7f2dbe08
+
+https://github.com/thebestclicker/weather-widget/assets/10188306/a9a3fe3c-ebbe-43cd-ba79-2c13893c39b6
+
+
+
 
 ### Default
 
