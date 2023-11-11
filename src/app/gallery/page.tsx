@@ -1,6 +1,6 @@
 import { ThemeToggle } from "@/components/ui/themetoggle";
 
-const GalleryPage = (props: { children: JSX.Element }) => {
+const GalleryPage = () => {
   return (
     <div className="w-full min-h-screen flex flex-col items-center justify-center gap-5">
       <div className="h-[100px]"></div>
