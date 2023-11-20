@@ -41,6 +41,17 @@ const SearchForm = (props: { placeholder: string }) => {
 
   return (
     <>
+      <noscript>
+        <div className="w-full p-5 flex flex-col gap-2">
+          <fieldset>
+            <form method="GET" className="space-y-2">
+              <Input type="text" id="q" name="q"></Input>
+              <Button type="submit">Search for another city</Button>
+            </form>
+          </fieldset>
+        </div>
+      </noscript>
+
       <div className="script w-full p-5 flex flex-col gap-2">
         <Form {...form}>
           <fieldset>

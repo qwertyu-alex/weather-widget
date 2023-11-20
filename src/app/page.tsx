@@ -30,10 +30,6 @@ const Home = (props: {
           `}
         </style>
         <DataWidget searchParams={searchParams} />
-        <div className="text-sm text-muted-foreground p-5 w-[300px] border rounded">
-          <p>JavaScript is required to run this widget.</p>
-          <p>Please enable JavaScript in your browser and try again.</p>
-        </div>
       </noscript>
     </>
   );
